@@ -1,0 +1,77 @@
+.contact-section {
+    text-align: center;
+    padding: 50px 18%;
+    background-color: #333333;
+}
+
+.section-title {
+    font-size: 16px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.section-subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #00e5ff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Couleurs spécifiques aux icônes */
+.contact-icon.phone {
+    color: #34a853;  /* Vert (Google Phone) */
+}
+
+.contact-icon.email {
+    color: #ea4335;  /* Rouge (Gmail) */
+}
+
+.contact-icon.linkedin {
+    color: #0077b5;  /* Bleu LinkedIn */
+}
+
+.contact-icon.github {
+    color: #ffffff;  /* Blanc (GitHub) */
+}
+
+.contact-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
