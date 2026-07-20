@@ -1,45 +1,47 @@
 import React from 'react'; 
-import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaDocker, FaGithub, FaPython, FaDatabase, FaReact } from 'react-icons/fa'; 
-import { SiMysql, SiPostgresql, SiSymfony, SiAlpinedotjs } from 'react-icons/si'; 
-import { CircularProgressbar } from 'react-circular-progressbar'; 
-import 'react-circular-progressbar/dist/styles.css';
+import { FaHtml5, FaCss3Alt, FaPhp, FaDocker, FaGithub, FaDatabase, FaReact, FaLinux, FaJava, FaUsers, FaSitemap, FaLightbulb, FaUserCheck, FaPaintBrush, FaUniversalAccess, FaCloud } from 'react-icons/fa';
+import { SiMysql, SiPostgresql, SiSymfony, SiAlpinedotjs, SiPhpmyadmin, SiC, SiJavascript, SiPython, SiVuedotjs, SiNextdotjs } from 'react-icons/si';
 import '../styles/Skills.css';
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML', category: 'Languages', level: 90, icon: <FaHtml5 /> },
-    { name: 'CSS', category: 'Languages', level: 80, icon: <FaCss3Alt /> },
-    { name: 'PHP', category: 'Languages', level: 80, icon: <FaPhp /> },
-    { name: 'JavaScript', category: 'Languages', level: 75, icon: <FaJs /> },
-    { name: 'SQL', category: 'Languages', level: 70, icon: <FaDatabase /> },
-    { name: 'Python', category: 'Languages', level: 60, icon: <FaPython /> },
-    { name: 'C', category: 'Languages', level: 50, icon: <FaDatabase /> },
-    { name: 'Java', category: 'Languages', level: 65, icon: <FaDatabase /> },
-    
-    { name: 'MySQL', category: 'Bases de données', level: 80, icon: <SiMysql /> },
-    { name: 'PostgreSQL', category: 'Bases de données', level: 75, icon: <SiPostgresql /> },
-    { name: 'phpMyAdmin', category: 'Outils', level: 85, icon: <FaGithub /> },
-    { name: 'Docker', category: 'Outils', level: 70, icon: <FaDocker /> },
-    { name: 'Unix avancé', category: 'Outils', level: 65, icon: <FaGithub /> },
-    { name: 'Github', category: 'Outils', level: 74, icon: <FaGithub /> },
-    { name: 'Alpine.js', category: 'Frameworks', level: 70, icon: <SiAlpinedotjs /> },
-    { name: 'Symfony', category: 'Frameworks', level: 75, icon: <SiSymfony /> },
-    { name: 'Vue.js', category: 'Frameworks', level: 59, icon: <FaReact /> },
-    { name: 'React', category: 'Frameworks', level: 50, icon: <FaReact /> },
-    { name: 'Méthode Merise', category: 'Conception', level: 70, icon: <FaDatabase /> },
-    { name: 'Design Pattern MVC', category: 'Conception', level: 72, icon: <FaDatabase /> },
-    { name: 'Conception de bases de données', category: 'Conception', level: 75, icon: <FaDatabase /> },
+    { name: 'HTML', category: 'Languages', icon: <FaHtml5 /> },
+    { name: 'CSS', category: 'Languages', icon: <FaCss3Alt /> },
+    { name: 'PHP', category: 'Languages', icon: <FaPhp /> },
+    { name: 'JavaScript', category: 'Languages', icon: <SiJavascript /> },
+    { name: 'SQL', category: 'Languages', icon: <FaDatabase /> },
+    { name: 'Python', category: 'Languages', icon: <SiPython /> },
+    { name: 'C', category: 'Languages', icon: <SiC /> },
+    { name: 'Java', category: 'Languages', icon: <FaJava /> },
+    { name: 'MySQL', category: 'Bases de données', icon: <SiMysql /> },
+    { name: 'PostgreSQL', category: 'Bases de données', icon: <SiPostgresql /> },
+    { name: 'Git / GitHub', category: 'Outils', icon: <FaGithub /> },
+    { name: 'Docker', category: 'Outils', icon: <FaDocker /> },
+    { name: 'Unix / Linux', category: 'Outils', icon: <FaLinux /> },
+    { name: 'phpMyAdmin', category: 'Outils', icon: <SiPhpmyadmin /> },
+    { name: 'Symfony', category: 'Frameworks', icon: <SiSymfony /> },
+    { name: 'Vue.js', category: 'Frameworks', icon: <SiVuedotjs /> },
+    { name: 'Alpine.js', category: 'Frameworks', icon: <SiAlpinedotjs /> },
+    { name: 'React', category: 'Frameworks', icon: <FaReact /> },
+    { name: 'Next.js', category: 'Frameworks', icon: <SiNextdotjs /> },
+    { name: 'UX/UI', category: 'Conception', icon: <FaPaintBrush /> },
+    { name: 'Méthode Merise', category: 'Conception', icon: <FaDatabase /> },
+    { name: 'Design Pattern MVC', category: 'Conception', icon: <FaDatabase /> },
+    { name: 'Accessibilité Web', category: 'Conception', icon: <FaUniversalAccess /> },
+    { name: 'Conception de bases de données', category: 'Conception', icon: <FaDatabase /> },
+    { name: 'Docker', category: 'Architecture', icon: <FaDocker /> },
+    { name: 'Cloud Computing', category: 'Architecture', icon: <FaCloud /> },
   ];
 
   const softSkills = [
-    { name: 'Esprit d\'équipe', level: 90 },
-    { name: 'Organisé', level: 85 },
-    { name: 'Facilité d\'adaptation', level: 80 },
-    { name: 'Curiosité', level: 86 },
-    { name: 'Autonome', level: 79 },
+    { name: 'Esprit d’équipe', icon: <FaUsers /> },
+    { name: 'Organisé', icon: <FaSitemap /> },
+    { name: 'Facilité d’adaptation', icon: <FaUserCheck /> },
+    { name: 'Curiosité', icon: <FaLightbulb /> },
+    { name: 'Autonome', icon: <FaUserCheck /> },
   ];
 
-  const categories = ['Languages', 'Bases de données', 'Outils', 'Frameworks', 'Conception'];
+  const categories = ['Languages', 'Bases de données', 'Outils', 'Frameworks', 'Conception', 'Architecture'];
 
   return (
     <div className="skills-section">
@@ -55,43 +57,20 @@ const Skills = () => {
                     <div className="skill-icon">{skill.icon}</div>
                     <h4>{skill.name}</h4>
                   </div>
-                  <div className="progress-bar">
-                    <CircularProgressbar 
-                      value={skill.level} 
-                      text={`${skill.level}%`} 
-                      strokeWidth={6}
-                      styles={{
-                        path: { stroke: '#00e5ff' },
-                        text: { fill: '#fff', fontSize: '12px' },
-                        trail: { stroke: '#3e3e3e' }
-                      }}
-                    />
-                  </div>
                 </div>
               ))}
             </div>
           </div>
         ))}
-        
+
         <div className="soft-skills">
           <h3>Soft Skills</h3>
           <div className="skills-list">
             {softSkills.map((skill, index) => (
               <div key={index} className="skill-card">
                 <div className="skill-name">
+                  <div className="skill-icon">{skill.icon}</div>
                   <h4>{skill.name}</h4>
-                </div>
-                <div className="progress-bar">
-                  <CircularProgressbar 
-                    value={skill.level} 
-                    text={`${skill.level}%`} 
-                    strokeWidth={6}
-                    styles={{
-                      path: { stroke: '#00e5ff' },
-                      text: { fill: '#fff', fontSize: '12px' },
-                      trail: { stroke: '#3e3e3e' }
-                    }}
-                  />
                 </div>
               </div>
             ))}

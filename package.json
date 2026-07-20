@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shunouu.github.io/Portfolio",
+  "homepage": ".",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "aos": "^2.3.4",
@@ -19,9 +19,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:github": "PUBLIC_URL=/Portfolio react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:github",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

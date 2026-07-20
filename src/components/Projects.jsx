@@ -10,53 +10,37 @@ import formulaireImg from '../images/formulaire.png';
 function Projects() {
   const projects = [
     {
-      title: 'Site E-Commerce',
-      description: "Développement d’un site e-commerce spécialisé dans la vente de CD, de films musicaux et d’accessoires. La plateforme inclut un catalogue de produits, une gestion du panier, ainsi que des options d’inscription et de connexion pour les utilisateurs. Le tout est soutenu par une base de données permettant de stocker et gérer les informations. L’interface est conçue pour offrir une expérience utilisateur fluide et intuitive.",
+      title: 'Site e-commerce — Musique',
+      description: "Création d'un site e-commerce fonctionnel sur la vente de DVD, CD et accessoires dans le domaine de la musique. Catalogue de produits, panier, inscription et connexion utilisateurs, le tout relié à une base de données.",
       image: ecommerceImg,
       tags: ['PHP', 'MySQL'],
-      link: 'https://github.com/Shunouu/crepe_waou',
+      link: 'https://film-music-two.vercel.app/',
       reverse: true
     },
     {
-      title: 'MatchFit - Application Web de Coaching',
-      description: "MatchFit est une application web permettant la mise en relation entre des coachs et des élèves. Les utilisateurs peuvent créer un compte, consulter des suggestions en fonction de leur sport préféré, et lire des avis sur les coachs. Le site propose des profils détaillés pour les coachs, incluant des vidéos et des descriptions, ainsi que des profils pour les utilisateurs avec leurs informations. Il inclut également une fonctionnalité indiquant l'état d'activité des coachs.",
+      title: 'MatchFit — Coaching sportif',
+      description: "Projet en groupe : site web pour les personnes qui souhaitent apprendre et pratiquer un sport avec un coach en direct. Mise en relation coachs / élèves, profils détaillés, avis et suggestions selon le sport choisi.",
       image: matchfitImg,
       tags: ['PHP', 'PostgreSQL', 'Docker'],
-      link: 'https://github.com/william7865/MatchFit',
+      link: 'https://match-fit.vercel.app/',
       reverse: false
     },
     {
-      title: 'Site Web de Cuisine',
-      description: 'L’application web de l’entreprise HomeMade, spécialisée dans la vente de plats à emporter. L’application vise à élargir son public en permettant aux utilisateurs de naviguer facilement entre les cuisiniers, consulter leurs spécialités, s’inscrire, et ajouter des plats à leur panier.',
+      title: 'Projet nourriture — HomeMade',
+      description: "Création d'un site e-commerce mettant en avant la vente de plats cuisinés par des chefs à emporter. Navigation entre cuisiniers, spécialités, inscription et panier.",
       image: cuisineImg,
       tags: ['Vue.js', 'PHP', 'CSS'],
-      link: 'https://github.com/Shunouu/HomeMade',
+      link: 'https://home-made-project.vercel.app',
       reverse: true
     },
     {
-      title: 'Site Web de Garage',
-      description: 'Le projet consiste à développer une application web vitrine pour le Garage V. Parrot, un garage automobile basé à Toulouse. Le site mettra en avant les véhicules d’occasion disponibles à la vente avec des photos, descriptions détaillées et informations techniques essentielles (prix, année de mise en circulation, kilométrage, image principale).',
-      image: garageImg,
-      tags: ['Symfony', 'PHP', 'CSS'],
-      link: 'https://github.com/Shunouu/garage',
-      reverse: false
-    },
-    {
-      title: 'Site Web Étudiant Gouv',
-      description: 'Le projet consiste à repenser le site existant étudiant gouv, afin de le rendre plus simple, attractif et fonctionnel. L’objectif est d’améliorer l’expérience utilisateur en simplifiant la navigation et en rendant le site plus visuellement attractif pour les utilisateurs. Mon groupe et moi avons choisi ce site dans le cadre d’un projet “Challenge Web” pour le rénover et le rendre plus moderne et engageant.',
+      title: 'Challenge Web — Étudiant.gouv',
+      description: "Reprise d'un site existant pour le rendre plus attractif et plus simple pour les clients. Projet Challenge Web en HTML et CSS : navigation simplifiée et interface modernisée.",
       image: etudiantImg,
       tags: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://github.com/Shunouu/challengeweb',
-      reverse: true
-    },
-    {
-      title: 'Formulaire PHP - City Car Lease',
-      description: "Création d'un formulaire fonctionnel en PHP pour recueillir des données et interagir avec les utilisateurs. Ce projet a été réalisé chez City Car Lease à Levallois-Perret, dans le cadre du développement web.",
-      image: formulaireImg,
-      tags: ['PHP', 'HTML', 'CSS'],
-      link: 'https://github.com/Shunouu/formulaire',
+      link: 'https://cw-etudiant-gouv.vercel.app',
       reverse: false
-    }
+    },
   ];
 
   return (

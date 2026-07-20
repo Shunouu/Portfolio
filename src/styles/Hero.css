@@ -51,10 +51,19 @@
     color: #00e5ff;
   }
   
-  .hero p {
-    font-size: 1.8rem;
+  .hero-tagline {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #00e5ff;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .hero-description {
+    font-size: 1.25rem;
     margin-bottom: 2rem;
-    line-height: 1.8;
+    line-height: 1.7;
+    color: #e0e0e0;
   }
   
   .hire-btn {
@@ -90,8 +99,12 @@
       font-size: 3.5rem;
     }
   
-    .hero p {
-      font-size: 1.6rem;
+    .hero-tagline {
+      font-size: 1.35rem;
+    }
+
+    .hero-description {
+      font-size: 1.15rem;
     }
   
     .hire-btn {
@@ -113,8 +126,12 @@
       font-size: 3rem;
     }
   
-    .hero p {
-      font-size: 1.4rem;
+    .hero-tagline {
+      font-size: 1.2rem;
+    }
+
+    .hero-description {
+      font-size: 1.05rem;
     }
   
     .hire-btn {
@@ -139,8 +156,12 @@
       font-size: 2.5rem;
     }
   
-    .hero p {
-      font-size: 1.2rem;
+    .hero-tagline {
+      font-size: 1.1rem;
+    }
+
+    .hero-description {
+      font-size: 1rem;
     }
   
     .hire-btn {

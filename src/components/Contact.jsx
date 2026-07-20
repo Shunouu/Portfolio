@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="container">
                 <h3 className="section-title">DISCUTONS DE VOS OBJECTIFS</h3>
                 <p>
-                    À la recherche d’une alternance en développement web dès septembre 2025 sur un rythme de 2 semaines en entreprise / 1 semaine en cours. 
+                    À la recherche d’une alternance en développement web et application dès septembre 2026.
                     Je suis disponible pour répondre à toutes vos questions et discuter de vos projets.
                 </p>
                 <h2 className="section-subtitle">OÙ ME TROUVER</h2>
