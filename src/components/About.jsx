@@ -14,7 +14,7 @@ function About() {
             Je suis Shun Mampuya, étudiant en développement web et applications, passionné par les nouvelles technologies.
           </p>
           <p>
-            Actuellement en 3<sup>e</sup> année de Bachelor à l&apos;EFREI Paris, j&apos;ai terminé ma troisième année et suis en attente de sa validation pour intégrer la première année de Mastère.
+            Actuellement en 4<sup>e</sup> année à l&apos;EFREI Paris, je poursuis ma formation en première année de Mastère Développeur Full-Stack, après avoir terminé mon Bachelor en Développement Web et Applications.
             J&apos;aime apprendre, relever des défis et progresser sur le plan personnel comme professionnel.
           </p>
           <div className="info-grid">

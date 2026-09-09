@@ -20,8 +20,8 @@ function Hero() {
             <span>Shun Mampuya</span>
           </h1>
           <p className="hero-description">
-            Étudiant en 3<sup>e</sup> année de Bachelor Développement Web et Application à l&apos;EFREI Paris.
-            Troisième année terminée ; en attente de validation pour intégrer la première année de Mastère.
+            Étudiant en 4<sup>e</sup> année à l&apos;EFREI Paris, en première année de Mastère Développeur Full-Stack.
+            À la recherche d&apos;une alternance pour l&apos;année 2026-2027.
           </p>
           <a href="#contact" className="hire-btn" onClick={handlePageTransition}>
             Contactez-moi !

@@ -15,6 +15,7 @@ const ExperienceTimeline = () => {
       <div className="section-title">
         <h2>Mon Parcours</h2>
       </div>
+
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -24,8 +25,12 @@ const ExperienceTimeline = () => {
           iconStyle={{ background: '#00ffab', color: 'black' }}
           icon={<FaBriefcase />}
         >
-          <h3 className="vertical-timeline-element-title">Gestionnaire de stock</h3>
-          <h4 className="vertical-timeline-element-subtitle">Pharmacie du Centre, Pantin</h4>
+          <h3 className="vertical-timeline-element-title">
+            Gestionnaire de stock
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Pharmacie du Centre, Pantin
+          </h4>
           <p>
             → Rangement des médicaments<br />
             → Récupération des commandes<br />
@@ -41,23 +46,33 @@ const ExperienceTimeline = () => {
           iconStyle={{ background: '#007bff', color: 'black' }}
           icon={<FaGraduationCap />}
         >
-          <h3 className="vertical-timeline-element-title">Baccalauréat STMG — Mercatique</h3>
-          <h4 className="vertical-timeline-element-subtitle">Lycée Grégor Mendel, Vincennes</h4>
-          <p>Obtention du baccalauréat STMG, spécialité mercatique.</p>
+          <h3 className="vertical-timeline-element-title">
+            Baccalauréat STMG — Mercatique
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Lycée Grégor Mendel, Vincennes
+          </h4>
+          <p>
+            Obtention du baccalauréat STMG, spécialité mercatique.
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="Septembre 2023 - Avril 2026"
+          date="Septembre 2023 - Juin 2026"
           contentStyle={timelineStyle}
           contentArrowStyle={{ borderRight: '7px solid #ffffff' }}
           iconStyle={{ background: '#007bff', color: 'black' }}
           icon={<FaGraduationCap />}
         >
-          <h3 className="vertical-timeline-element-title">Bachelor Développement Web et Application</h3>
-          <h4 className="vertical-timeline-element-subtitle">EFREI, Villejuif</h4>
+          <h3 className="vertical-timeline-element-title">
+            Bachelor Développement Web et Applications
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            EFREI Paris, Villejuif
+          </h4>
           <p>
-          Formation en développement web et applications. Troisième année terminée ; en attente de validation pour intégrer la première année de Mastère.
+            Parcours de 3 ans en Bachelor Développement Web et Applications.
           </p>
         </VerticalTimelineElement>
 
@@ -69,10 +84,15 @@ const ExperienceTimeline = () => {
           iconStyle={{ background: '#00ffab', color: 'black' }}
           icon={<FaBriefcase />}
         >
-          <h3 className="vertical-timeline-element-title">Chargé de Développement Web</h3>
-          <h4 className="vertical-timeline-element-subtitle">City Car Lease, Levallois-Perret</h4>
+          <h3 className="vertical-timeline-element-title">
+            Chargé de Développement Web
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            City Car Lease, Levallois-Perret
+          </h4>
           <p>
-          Création d’un formulaire en PHP pour recueillir des données et interagir avec les utilisateurs.
+            Création d’un formulaire en PHP pour recueillir des données et
+            interagir avec les utilisateurs.
           </p>
         </VerticalTimelineElement>
 
@@ -84,9 +104,15 @@ const ExperienceTimeline = () => {
           iconStyle={{ background: '#00ffab', color: 'black' }}
           icon={<FaBriefcase />}
         >
-          <h3 className="vertical-timeline-element-title">Développeur Front-End</h3>
-          <h4 className="vertical-timeline-element-subtitle">City Car Lease, Levallois-Perret</h4>
-          <p>Modernisation de la page d’accueil du site de l’entreprise.</p>
+          <h3 className="vertical-timeline-element-title">
+            Développeur Front-End
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            City Car Lease, Levallois-Perret
+          </h4>
+          <p>
+            Modernisation de la page d’accueil du site de l’entreprise.
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -97,9 +123,35 @@ const ExperienceTimeline = () => {
           iconStyle={{ background: '#00ffab', color: 'black' }}
           icon={<FaBriefcase />}
         >
-          <h3 className="vertical-timeline-element-title">Développeur React / Next.js</h3>
-          <h4 className="vertical-timeline-element-subtitle">City Car Lease, Levallois-Perret</h4>
-          <p>Développement d’une nouvelle version du site web de l’entreprise avec Next.js.</p>
+          <h3 className="vertical-timeline-element-title">
+            Développeur React / Next.js
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            City Car Lease, Levallois-Perret
+          </h4>
+          <p>
+            Développement d’une nouvelle version du site web de l’entreprise
+            avec Next.js.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Septembre 2026 - Aujourd’hui"
+          contentStyle={timelineStyle}
+          contentArrowStyle={{ borderRight: '7px solid #ffffff' }}
+          iconStyle={{ background: '#007bff', color: 'black' }}
+          icon={<FaGraduationCap />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Mastère Développeur Full-Stack — M1
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            EFREI Paris, Villejuif
+          </h4>
+          <p>
+            Première année de Mastère Développeur Full-Stack.
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
