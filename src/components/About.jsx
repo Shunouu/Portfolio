@@ -9,14 +9,14 @@ function About() {
         <div className="about-text">
           <h2 className="underline">En savoir plus sur moi</h2>
           <p>
-            <span className="bonjour">Bonjour,</span><br />
-            Je me présente : Shun Mampuya, étudiant en développement web et applications, passionné par la création et les nouvelles technologies.
+            <span className="bonjour">Bonjour,</span>{' '}
+            Je me présente Shun Mampuya étudiant en développement web applications, passionné par la création et par les nouvelles technologies
           </p>
           <p>
-            Je suis actuellement en première année de Mastère Développeur Full-Stack au sein de l&apos;établissement EFREI Paris.
+            Je suis actuellement en 1ère année de mastère developpeur Full-Stack au sein de l’établissement EFREI PARIS
           </p>
           <p>
-            Je suis une personne sociable et organisée, à l&apos;écoute. J&apos;aime travailler en équipe, relever des défis et accueillir les critiques constructives pour continuer à évoluer.
+            Je suis une personne sociable, organisée, à l’écoute, aime travailler en équipe, j’aime les challenges et accepte les critiques constructives pour me permettre d’évoluer.
           </p>
           <div className="info-grid">
             <div><strong>Prénom :</strong> <span>Shun</span></div>
