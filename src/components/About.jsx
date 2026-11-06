@@ -9,7 +9,7 @@ function About() {
         <div className="about-text">
           <h2 className="underline">En savoir plus sur moi</h2>
           <p>
-            <span className="bonjour">Bonjour,</span>{' '}
+            <span className="bonjour">Bonjour,</span><br />
             Je me présente Shun Mampuya étudiant en développement web applications, passionné par la création et par les nouvelles technologies
           </p>
           <p>
